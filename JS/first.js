@@ -9,7 +9,7 @@ divs.forEach((e,i)=>{
     const data=new Array();
     e.addEventListener("click",()=>{
        
-        e.classList.toggle("sub_box1");
+        sub_divs[i].classList.toggle("sub_box1");
         ii[i].classList.toggle("rotate");
         const p=d.createElement("p");  
         data.push(p);

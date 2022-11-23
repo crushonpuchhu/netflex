@@ -194,11 +194,18 @@
  {
    font-size: 38px;
    transition-duration: 0.3s;
+
   }
   .rotate
   {
     transform: rotate(45deg);
+   
   }
+  
+
+
+
+  
   .sub_box
   { 
    position: relative;
@@ -207,11 +214,15 @@
     width: 47%;
     box-sizing: border-box;
     margin-bottom: 10px;
-   
+  
   }
   .sub_box1
-  {
+  { 
     padding: 10px;
+    animation-name:rot;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    
   }
   .sub_box p
   { position: relative;
@@ -241,3 +252,18 @@
  }
 
 
+ @keyframes rot{
+  0%{
+    opacity: 0.1;
+    
+  }
+  50%
+  {
+    opacity: 0.6;
+    
+  }
+  100%{
+    opacity: 1;
+    
+  }
+}
