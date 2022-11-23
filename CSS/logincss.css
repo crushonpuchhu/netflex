@@ -1,0 +1,436 @@
+.main
+{
+    position: relative;
+    width: 100vw;
+    margin: -7.7px;
+    
+    
+   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/d4f217b2-4001-4df5-bef8-0b026ec133fe/IN-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+   
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.main1
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.5);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.top
+{
+    position: relative;
+    height: 80px;
+    display:flex;
+    align-items: center;
+   
+   
+
+}
+.img1
+{position: relative;
+ width: 167px;
+ height: 45px;
+ left: 3%;
+
+}
+.main_fome
+{
+    position: relative;
+   
+   
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.chile
+{
+    position: relative;
+    background-color: rgb(0, 0, 0,0.7);
+    height: 630px;
+    width: 450px;
+    top: 5%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+.bottombox
+{
+    position: relative;
+ 
+    background-color: rgb(0, 0, 0,0.8);
+    height: 258.9px;
+    
+}
+.plast
+{  position: relative;
+
+    width: 500px;
+    left: 300px;
+    color: #737373;
+    font-size: 1em;
+}
+.plast a
+{
+    color:#737373;
+    
+    
+}
+.plast a:hover
+{
+    text-decoration: underline;
+}
+*{
+  text-decoration: none;
+}
+.lists p ,.lists p a
+{
+    color:#737373;
+    font-size: 13px;
+}
+.lists{
+    position: relative;
+    width: 50%;
+    height: 80px;
+    left: 300px;
+    top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    
+}
+.lists p{
+    position: relative;
+}
+.lists p:nth-of-type(5),.lists p:nth-of-type(6)
+{   top: -10px;
+   
+}
+.lists p a:hover
+{
+    text-decoration: underline;
+}
+
+#spn2
+{
+  border: 1px solid #333;
+  color: #737373;
+  position: relative;
+  left:300px;
+  top:25px;
+  width: 95px;
+  display: flex;
+  height: 39px;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 5px ;
+  
+}
+span[id="pop"] {
+    font-size: 18px;
+}
+
+#lang {
+    position: relative;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+    border-color: black;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+.fom{
+    position: relative;
+    width: 314px;
+    height: 50px;
+    left: 17%;
+    
+}
+.fom:nth-of-type(1)
+{   
+  
+  margin-top: 22px;
+}
+
+.fom:nth-of-type(1) h1
+{   position: relative;
+    font-size: 35px;
+    font-weight: 500;
+    top: -20px;
+    
+}
+
+.fom:nth-of-type(2)
+{   position: relative; 
+    top: -10px;
+    height:294px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fom:nth-of-type(3)
+{   position: relative;
+    height:200px;
+    top:-35px;
+    color:rgb(169, 169, 169);
+    
+}
+.fome3 p:first-child
+{
+    font-size: 15px;
+    color:#8c8c8c;
+}
+.fome3 p:nth-of-type(2)
+{
+    font-size: 13px;
+    color:#8c8c8c;
+}
+
+
+*{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+form
+{   position: relative;
+    height: 295px;
+    margin-top: 30px;
+    width: 314px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  
+}
+.inp1,.inp2
+{  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp2
+{   
+    top: -27px;
+}
+.one
+{
+    position: relative;
+    width: 306px;
+    height: 40px;
+    background-color:rgba(68, 66, 66, 0.8);
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border-color: transparent;
+
+   
+}
+.two
+{    background-color:rgba(68, 66, 66, 0.8);
+    position: relative;
+    width: 306px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border-color: transparent;
+    
+    
+    
+}
+#orange
+{
+    border-bottom: 2px solid #e87c03;
+}
+#org
+{
+    color:#e87c03;
+    font-size: 13px;
+}
+.color_ornge
+{
+    color:#e87c03;
+}
+
+form input:nth-of-type(2):focus
+{
+    background-color:#5e5c5cb3;
+}
+form input:nth-of-type(1):focus
+{
+    background-color:#5e5c5cb3;
+}
+form button
+{
+    position: relative;
+    width: 315px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ff202c;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    top: -33px;
+}
+.lable1,.lable2
+{     color:#ffffff;
+    position: absolute;
+    transition-duration: 0.12s;
+}
+.lable1
+{
+   
+    font-size: 15px;
+    left: 10px;
+    top: 16px;
+
+    
+}
+.demolable1
+{
+    left: 10px;
+    top: 2px;
+    font-size: 12px;
+}
+.lable2
+{
+   
+  
+    left: 10px;
+  
+   
+}
+.demolable2
+{
+    
+   top: 3px;
+    left: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
+#detalis
+{
+  background-color:transparent;
+  top: -28.5px;
+  position: relative;
+  transition-duration: 1s;
+}
+.summry
+{
+    color: #0080ff;
+   font-size: 13px;
+   position: relative;
+  position: relative;
+   width: 23%;
+   left: 45%;
+   
+}
+.summry:hover
+{
+    text-decoration: underline;
+}
+details > summary {
+    list-style: none;
+    cursor: pointer;
+  }
+details summary::-webkit-details-marker 
+{   
+    display:none;
+  }
+  
+  .gayab
+  {
+     visibility: hidden;
+  }
+.textinn
+{  position: relative;
+   transition-duration:1s;
+  font-size: 13px;
+  color:#8c8c8c;
+
+}
+a{
+    text-decoration: none;
+    color:#0080ff;;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+.app1
+{position: relative;
+    top: -14px;
+ font-size: 13px;
+ color: #e87c03;
+ box-sizing: border-box;
+ 
+}
+.app12,.app13
+{
+  
+    margin: 4px;
+
+}
+
+.app2
+{
+position: relative;
+top: -40px;
+ font-size: 13px;
+ color: #e87c03;
+ box-sizing: border-box;
+}
+.boxn
+{  position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#8c8c8c;
+    top: -40px;
+}
+[type="checkbox"]
+{
+    position: relative;
+    left:-2.5px ;
+    width: 17px;
+    height: 17px;
+     
+  
+}
+.a3
+{
+    color:#8c8c8c;
+    font-size: 14px;
+}
+.ckh
+{
+    position: relative;
+    left: -70.5px;
+    font-size: 13px;
+}
+
+
+

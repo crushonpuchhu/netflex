@@ -1,0 +1,263 @@
+@import url("third.css");
+.sec2 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+
+body::-webkit-scrollbar
+{
+    display: none;
+}
+
+.sec3 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tyo {
+    position: relative;
+
+
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 3;
+    top: -30px;
+    width: 550px;
+
+
+    word-spacing: 3px;
+}
+
+.fonyu {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+
+
+
+    top: 20px;
+    left: -66px;
+
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.imge {
+    position: absolute;
+
+
+    height: 390px;
+    width: 530px;
+    z-index: 1;
+    left: 0px;
+}
+
+.bieo {
+    position: absolute;
+
+
+    height: 215px;
+    width: 452px;
+    top: 107px;
+    left: 36px;
+
+}
+
+.thi1 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 600px;
+
+}
+
+.thi2 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+
+}
+
+.imageop {
+    position: absolute;
+    width: 505px;
+    height: 379px;
+}
+
+.menu {
+    position: absolute;
+    height: 96px;
+    width: 330.98px;
+    border-radius: 10px;
+    top: 292px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgb(90, 89, 89);
+    box-shadow: -10px -15px 60px
+}
+
+.vi1 {
+    position: relative;
+    width: 57.14px;
+    height: 84px;
+    background-color: rgb(12, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vi2 {
+    position: relative;
+    width: 181.84px;
+    height: 38.4px;
+    left: 5px;
+}
+
+.vi3 {
+    position: relative;
+    width: 48px;
+    height: 60px;
+    background-color: rgb(1, 1, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rest {
+    position: relative;
+    width: 57px;
+    height: 80px;
+}
+
+.itsme {
+    position: relative;
+    width: 48px;
+    height: 50px;
+}
+
+.vi2 p:nth-of-type(1) {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bolder;
+    top: -14px;
+}
+
+.vi2 p:nth-of-type(2) {
+    position: relative;
+    color: blue;
+    top: -31px
+}
+
+.thi2 h1 {
+    position: relative;
+    color: white;
+    width: 500px;
+    font-size: 45px;
+    height: 100px;
+    top: 10px;
+}
+
+.thi2 h3 {
+    position: relative;
+    color: white;
+    font-size: 26px;
+    font-weight: 15;
+    width: 600px;
+    height: 55px;
+    top: -30px;
+    word-spacing: 3px;
+}
+
+#rt1 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+#rt2 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#rt1 h1 {
+    position: relative;
+
+    color: white;
+    font-size: 45px;
+    width: 500px;
+    height: 60px;
+    top: 40px;
+    left: -20px;
+}
+
+#rt1 h3 {
+    position: relative;
+
+
+    word-spacing: 3px;
+    font-size: 26px;
+    font-weight: 15;
+    color: rgb(241, 241, 241);
+    width: 600px;
+    height: 60px;
+    top: -13px;
+    left: 28px;
+}
+
+#rt2 img {
+    position: absolute;
+    height: 416.59px;
+    width: 555.45px;
+    z-index: 1;
+    left: -47px;
+}
+
+#rt2 video {
+    position: absolute;
+    width: 341.93px;
+    height: 197.68px;
+
+    left: 58px;
+    top: 58px;
+}

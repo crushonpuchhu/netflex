@@ -1,0 +1,310 @@
+@import url("second.css");
+
+.anch1
+
+{
+    position: relative;
+    left: 69rem;
+    text-decoration: none;
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4px;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+
+
+}
+
+#lang {
+    position: relative;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+    border-color: black;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+span[id="pop"] {
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#first_sub2 {
+    width: 94.8rem;
+
+
+    position: relative;
+    height: 621px;
+    left: 0px;
+    top: 0px;
+    color: white;
+
+
+
+
+
+}
+
+#h1first {
+
+    font-family: 'Open Sans', sans-serif;
+
+
+    top: 75px;
+    left: 359px;
+    font-size: 4.125rem;
+    width: 800px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+
+
+}
+
+#h2first {
+
+
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 541px;
+    top: 31px;
+    font-size: 26px;
+
+
+    width: 494px;
+}
+
+#h3fi {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+
+    left: 441px;
+
+
+    width: 676px;
+    top: 43px;
+}
+
+.input1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    left: 363px;
+    top: 37px;
+    width: 790px;
+   
+
+
+
+}
+
+input[type="email"] {
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-color: white;
+    height: 67px;
+    width: 535px;
+    font-size: 17px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+input[type="email"]:focus
+{
+    border: 2px solid rgb(46, 184, 229);
+}
+
+
+[type="submit"] {
+    color: white;
+    position: relative;
+    width: 237px;
+    height: 69px;
+    left: -4px;
+
+    top: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-color: #fd0000;
+    cursor: pointer;
+    background-color: rgb(227, 14, 14);
+    font-size: 30px;
+}
+[type="submit"]:hover
+{ 
+    background-color: red;
+
+}
+
+#io {
+    position: absolute;
+    color: white;
+    left: 70px;
+
+}
+
+#icon {
+    position: absolute;
+    font-size: 44px;
+    left: 185px;
+    top: 10px;
+}
+.main {
+
+    position:relative;
+ 
+  
+    margin: -7px;
+    padding: 0px;
+    display: block;
+    top: 0px;
+    left: 0px;
+}
+
+.main nav {
+    position: relative;
+   
+
+}
+
+.first {
+
+width: 100%;
+    height: 740px;
+    left: 0px;
+    top: 0px;
+    margin-top: -7px;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b321426e-35ae-4661-b899-d63bca17648a/c6e22290-98e5-4eee-b72d-47156e4893fc/IN-en-20220926-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: black;
+    box-shadow: 0px 4px 248px 169px rgba(0, 0, 0, 0.84) inset;
+
+
+
+}
+
+.second {
+    width:100%;
+    top: 6px;
+    background-color: black;
+    height: 450px;
+    color: white;
+    display: flex;
+    margin-right:-17px;
+
+}
+
+.third {
+    width:100%;
+
+    top: 12px;
+    background-color: black;
+    height: 450px;
+    display:flex;
+   
+
+}
+
+.fourth {
+    width: 100%;
+
+    top: 18px;
+    background-color: black;
+    height: 470px;
+    display: flex;
+}
+
+.fifth {
+    width: 100%;
+    top: 24px;
+    background-color: black;
+    height: 450px;
+    display: flex;
+}
+
+.six {
+    width: 100%;
+    background-color: black;
+    top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+
+.seven {
+   
+    background-color: black;
+    top: 36px;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background-color: #222222;
+
+
+}
+
+#first_sub {
+
+    position: relative;
+    top: 10px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    display: flex;
+    width: 94.8rem;
+
+
+}
+
+img[alt="Netflix"] {
+
+    position: relative;
+    left: 52px;
+    height: 45px;
+
+}
+
+#spn {
+    border: 1px solid white;
+    position: relative;
+    left: 67rem;
+    width: 95px;
+    display: flex;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+
+}
