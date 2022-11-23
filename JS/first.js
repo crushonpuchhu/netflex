@@ -5,40 +5,44 @@ const sub_divs=d.querySelectorAll(".sub_box");
 const ii=d.querySelectorAll("i");
 const arryofset=[];
 const de=new Array();
+const doi=new Array();
+const count=[0,0,0,0,0,0];
 divs.forEach((e,i)=>{ 
     let op=1;
     const data=new Array();
     e.addEventListener("click",()=>{
        
-        sub_divs[i].classList.toggle("sub_box1");
-        ii[i].classList.toggle("rotate");
+       
+        
         const p=d.createElement("p");  
         data.push(p);
         if(op%2!=0)
         {
-           
+
          p.innerHTML=arr[i];
          sub_divs[i].append(p);
-
+         sub_divs[i].classList.add("sub_box1");
+         ii[i].classList.add("rotate");
+        
         }
 
         if(op%2==0)
         {  data[op-2].remove();
-         
-         
+            ii[i].classList.remove("rotate");
+            sub_divs[i].classList.remove("sub_box1");
+            console.log("hello");
         }
         arryofset.push(p);
         de.push(sub_divs[i]); 
-       
-         delt();
-          
+         doi.push(ii[i]);
+        
+        delt();
          
            
         
        
-         
         op++;
-        
+       
          
     })
 
@@ -51,5 +55,11 @@ if(arryofset.length>1)
   arryofset.shift();
     de[de.length-2].classList.remove("sub_box1");
     de.shift();
-    console.log(de);
-}}
+    doi[doi.length-2].classList.remove("rotate");
+    doi.shift();
+    
+    
+}
+
+
+}

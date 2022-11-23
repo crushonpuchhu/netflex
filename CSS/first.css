@@ -30,10 +30,16 @@
     color: white;
     border-color: black;
     font-family: 'Open Sans', sans-serif;
-
-
+    outline: none;
+    -webkit-appearance:none;
 
 }
+[class="fas fa-caret-down"]
+{  position: relative;
+    color: white;
+    left: 3px;
+}
+
 
 span[id="pop"] {
     font-size: 18px;
